@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jadora - Food Ideas & Recipes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🍴 Jadora</h1>
+    <p>Food Ideas & Recipes</p>
+</header>
+
+<main>
+
+    <h2>What are you craving?</h2>
+
+    <input
+        type="text"
+        id="searchBox"
+        placeholder="Search for a recipe..."
+    >
+
+    <h2>Explore Categories</h2>
+
+    <div class="categories">
+        <button data-category="all">🍽️ All</button>
+        <button data-category="breakfast">🍳 Breakfast</button>
+        <button data-category="lunch">🍔 Lunch</button>
+        <button data-category="dinner">🍝 Dinner</button>
+        <button data-category="snacks">🍿 Snacks</button>
+        <button data-category="desserts">🍰 Desserts</button>
+    </div>
+
+    <h2>Jadora Recipes</h2>
+
+    <div id="recipes" class="recipes"></div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
